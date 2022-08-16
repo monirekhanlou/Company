@@ -1,0 +1,21 @@
+body{
+   direction: rtl;
+}
+.indexImg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: 250px;
+  
+}
+
+.desc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: fit-content;
+    border: 1px solid black;
+    padding: 5px;
+}

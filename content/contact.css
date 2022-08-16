@@ -1,0 +1,13 @@
+.rightDiv{
+    width: 50%;
+    float: right;
+}
+
+.leftDiv{
+    width: 50%;
+    float: left;
+}
+
+.leftDiv img{
+    width: 100%;
+}
