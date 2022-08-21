@@ -36,3 +36,52 @@ h1 {
     padding-top: 10px;
     padding-bottom: 10px ;
 }
+.reqFirstRow{
+  background-color: rgb(101, 93, 251);
+  text-decoration-color: white;
+  border: 1px outset silver;
+  column-span: 3;
+}
+.reqEvenRowsFirstCol{
+  background-color: rgb(143, 142, 142);
+  border: 1px outset silver;
+  font-weight: bold;
+  float: right;
+
+}
+.reqEvenRowsSecCol{
+  background-color: rgb(143, 142, 142);
+  border: 1px outset silver;
+  font-weight: bold;
+  float: right;
+
+}
+.reqEvenRowsThCol{
+  background-color: rgb(143, 142, 142);
+  border: 1px outset silver;
+  font-weight: bold;
+  float: right;
+
+}
+.reqOddRowsFirstCol{
+  background-color: white;
+  border: 1px outset silver;
+  float: right;
+}
+
+.reqOddRowsSecCol{
+  background-color: white;
+  border: 1px outset silver;
+  float: right;
+
+}
+.reqOddRowsThCol{
+  background-color: white;
+  border: 1px outset silver;
+  float: right;
+
+}
+
+
+
+
