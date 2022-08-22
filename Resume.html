@@ -100,13 +100,14 @@
       <div style="clear: both"></div>
     </nav>
     <section class="Container">
-      //TODO apply new image in this part,below your table
+      
       <h1>ارسال رزومه برای همکاری</h1>
       <img
         src="images/122-1225116_resume-icons-png-transparent-stock-rsum.png"
         alt="There is no profile photo"
         class="image"
       />
+      <!--TODO table  -->
       <p class="center txtStyle">
         ما در مجموعه خود قصد استخدام نیروهای کارآمد و جوان را داریم. <br />اگر
         علاقه مند هستید فرم را به طور صحیح و کامل پر کنید.
@@ -142,22 +143,29 @@
         </form>
       </div>
       <div>
-        <p class="reqFirstRow">کارمند</p>
-        <p class="reqEvenRowsFirstCol">طراح</p>
-        <p class="reqEvenRowsSecCol">آشنا به فتوشاپ</p>
-        <p class="reqEvenRowsThCol">  حداقل 2 سال سابقه کار</p>
-      
-      <br/>
-      
-        <p class="reqOddRowsFirstCol">برنامه نویس فرانت اند</p>
-        <p class="reqOddRowsSecCol">آشنا به JS,CSS,HTML</p>
-        <p class="reqOddRowsThCol">  حداقل 1 سال سابقه کار</p>
-      
-      <br/>
+        <table class="reqTable">
+          <tr class="reqFirstRow">
+            <th><p>کارمند</p></th></tr>
         
-        <p class="reqEvenRowsFirstCol">برنامه نویس بک اند</p>
-        <p class="reqEvenRowsSecCol">آشنا به C#,MVC,ASP,SQL</p>
-        <p class="reqEvenRowsThCol">  حداقل یک نمونه کار</p>
+        <tr>
+          <th class="reqEvenRowsFirstCol"><p>طراح</p>
+          </th>
+          <th class="reqEvenRowsSecCol"><p>آشنا به فتوشاپ</p></th>
+          <th class="reqEvenRowsThCol"><p>  حداقل 2 سال سابقه کار</p></th></tr>
+
+      <tr>
+      
+       <th class="reqOddRowsFirstCol"><p >برنامه نویس فرانت اند</p></th> 
+        <th class="reqOddRowsSecCol"><p >آشنا به JS,CSS,HTML</p></th>
+        <th  class="reqOddRowsThCol"><p>  حداقل 1 سال سابقه کار</p></th>
+      
+      </tr>
+      <tr>
+       <th class="reqEvenRowsFirstCol"> <p >برنامه نویس بک اند</p></th>
+        <th class="reqEvenRowsSecCol"><p>آشنا به C#,MVC,ASP,SQL</p></th>
+        <th class="reqEvenRowsThCol"> <p> حداقل یک نمونه کار</p></th>
+      </tr>  
+        </table>
       </div>
     </section>
     <footer>
